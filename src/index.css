@@ -4,6 +4,7 @@
   --rosa: #D9048E;
   --roxo: #8C035C;
   --preto: #000000;
+  --pretobg: #0000009f;
   --branco: #ffffff;
   --font-titulos: 'Frijole', cursive;
   --font-textos: 'Inder', sans-serif;
@@ -11,11 +12,16 @@
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
 }
 
 code {
