@@ -2,11 +2,11 @@ import React from "react";
 import { useParams, NavLink } from "react-router-dom";
 import Container from "./StyledFuncionarios";
 import Button from "../../components/button/Button";
-import ListarTodos from "../../components/sessaoFuncionarios/ListarTodos";
-import ListarUm from "../../components/sessaoFuncionarios/ListarUm";
-import Salvar from "../../components/sessaoFuncionarios/Salvar";
-import Atualizar from "../../components/sessaoFuncionarios/Atualizar";
-import Deletar from "../../components/sessaoFuncionarios/Deletar";
+import ListarTodos from "../../components/sessaoFuncionarios/listarTodos/ListarTodos";
+import ListarUm from "../../components/sessaoFuncionarios/listarUm/ListarUm";
+import Salvar from "../../components/sessaoFuncionarios/salvar/Salvar";
+import Atualizar from "../../components/sessaoFuncionarios/atualizar/Atualizar";
+import Deletar from "../../components/sessaoFuncionarios/deletar/Deletar";
 
 const Funcionarios = () => {
    const { params } = useParams();
