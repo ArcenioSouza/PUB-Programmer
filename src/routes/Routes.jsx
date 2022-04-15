@@ -10,6 +10,7 @@ const RoutesApp = () => {
     <Routes>
        <Route path="/" element={<Home/>}/>
        <Route path="/adm/funcionarios" element={<Funcionarios/>}/>
+       <Route path="/adm/funcionarios/:params" element={<Funcionarios/>}/>
        <Route path="/adm/cardapio" element={<Cardapio/>}/>
        <Route path="/adm/fornecedores" element={<Fornecedores/>}/>
     </Routes>
