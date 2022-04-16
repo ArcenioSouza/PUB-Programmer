@@ -48,6 +48,12 @@ const Container = styled.main`
          background-color: var(--rosa);
          cursor: pointer;
       }
+
+      .active {
+         button {
+            background-color: var(--rosa);
+         }
+      }
    }
 
    .informacoesDaApi {
@@ -66,38 +72,6 @@ const Container = styled.main`
       p {
          font-size: 1.3rem;
          text-align: center;
-      }
-
-      .listaFuncionarios {
-         width: 90%;
-         height: 90%;
-         overflow-y: scroll;
-
-         ul {
-            list-style: none;
-         }
-      }
-
-      .listaFuncionarios::-webkit-scrollbar {
-         width: 12px;
-         
-      }
-
-      .listaFuncionarios::-webkit-scrollbar-track {
-         background: #2E2E2E;
-         border-radius: 20px;
-      }
-
-      .listaFuncionarios::-webkit-scrollbar-thumb {
-         background-color: var(--roxo);
-         border-radius: 20px;
-         border: 3px solid var(--roxo);
-      }
-   }
-
-   .active {
-      button {
-         background-color: var(--rosa);
       }
    }
 `;

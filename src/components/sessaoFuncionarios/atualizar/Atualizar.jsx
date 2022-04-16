@@ -3,12 +3,22 @@ import Container from "./StyledAtualizar";
 import Button from "../../button/Button";
 import { useForm } from "react-hook-form";
 import api from "../../../services/api.js";
+import { toast, ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const Atualizar = () => {
    const { register, handleSubmit } = useForm();
 
    const onSubmit = (data) => {
-      api.put(`/employee/${data.id}`, data);
+      toast.promise(
+         api.put(`/employee/${data.id}`, data),
+         {
+            pending: "Enviando informações de funcionários",
+            error: "Erro ao atualizar os dados",
+            success: "Dados atualizados com sucesso",
+         }
+        )    
+      
    };
 
    return (
@@ -42,6 +52,7 @@ const Atualizar = () => {
             <input type="number" {...register("cpf")} />
          </div>
          <Button text="Atualizar" onClick={handleSubmit(onSubmit)} />
+         <ToastContainer position="top-right" autoClose={3000}/>
       </Container>
    );
 };

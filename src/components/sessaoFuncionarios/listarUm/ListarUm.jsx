@@ -6,6 +6,8 @@ import {
 import api from "../../../services/api";
 import Button from "../../button/Button";
 import Container from "./StyleListarUm.jsx";
+import { toast, ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const ListarUm = () => {
    const [idFuncionario, setIdFuncionario] = useState("");
@@ -13,9 +15,19 @@ const ListarUm = () => {
 
    function buscarFuncionario(event) {
       event.preventDefault();
-      api.get(`/employee/${idFuncionario}`).then((response) => {
-         setInformacoesFuncionario(response.data);
-      });
+      api.get(`/employee/${idFuncionario}`)
+         .then((response) => {
+            if (response.data !== null) {
+               setInformacoesFuncionario(response.data);
+               toast.success("Dados obtidos com sucesso");
+            } else {
+               toast.error("Não existe funcionário com esse Id");
+            }
+         })
+         .catch((error) => {
+            console.error("Error", error);
+            toast.error("Não foi possível obter os dados do funcionário");
+         });
    }
 
    return (
@@ -56,6 +68,7 @@ const ListarUm = () => {
                </ul>
             )}
          </div>
+         <ToastContainer position="top-right" autoClose={3000} />
       </Container>
    );
 };
