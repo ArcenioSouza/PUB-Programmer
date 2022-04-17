@@ -37,8 +37,10 @@ export const Container = styled.form`
       width: 100%;
 
       .containerCargo {
-         width: 46%;
-         margin-right: 2%;
+         width: 49%;
+         margin-right: 1%;
+         display: flex;
+         flex-direction: column;
 
          select {
             width: 100%;
@@ -49,9 +51,56 @@ export const Container = styled.form`
          }
       }
 
-      .containerSalario{
-         width: 46%;
-         margin-left: 2%;
+      .containerSalario {
+         width: 49%;
+         margin-left: 1%;
+         display: flex;
+         flex-direction: column;
+      }
+   }
+
+   @media (max-width: 800px) {
+      width: 95%;
+      height: 450px;
+
+      h3 {
+         font-size: 0.8rem;
+      }
+
+      button {
+         width: 90px;
+         font-size: 0.8rem;
+         margin: 5px;
+      }
+
+      .inputs {
+         label {
+            font-size: 0.9rem;
+         }
+
+         input {
+            font-size: 0.9rem;
+         }
+      }
+
+      .inputsCargoSalario {
+         flex-direction: column;
+
+         .containerCargo {
+            width: 100%;
+            margin-right: 0;
+            flex-direction: column;
+
+            select {
+               font-size: 0.9rem;
+            }
+         }
+
+         .containerSalario {
+            width: 100%;
+            margin-left: 0;
+            flex-direction: column;
+         }
       }
    }
 `;

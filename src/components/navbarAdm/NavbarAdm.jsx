@@ -10,7 +10,12 @@ const NavbarAdm = () => {
 
    return (
       <Container>
-         <GiHamburgerMenu onClick={() => setAtivaMenu(!ativaMenu)}/>
+         <GiHamburgerMenu onClick={() => {
+            setAtivaMenu(!ativaMenu)
+            setTimeout(() => {
+               setAtivaMenu(false)
+            },3000)
+         }}/>
          <img src={require("../../assets/img/Logotipo-dark.png")} alt="" />
          <nav>
             <ul>

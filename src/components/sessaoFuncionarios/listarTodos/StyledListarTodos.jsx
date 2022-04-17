@@ -23,6 +23,30 @@ export const Container = styled.div`
       border-radius: 20px;
       border: 3px solid var(--roxo);
    }
+
+   @media (max-width: 800px) {
+      width: 98%;
+      height: 95%;
+
+      ul{
+         padding-left: 5px;
+      }
+
+      ::-webkit-scrollbar {
+         width: 8px;
+      }
+
+      ::-webkit-scrollbar-track {
+         background: #2e2e2e;
+         border-radius: 20px;
+      }
+
+      ::-webkit-scrollbar-thumb {
+         background-color: var(--roxo);
+         border-radius: 20px;
+         border: 1px solid var(--roxo);
+      }
+   }
 `;
 
 export default Container;
