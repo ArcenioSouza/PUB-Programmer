@@ -9,6 +9,7 @@ import Atualizar from "../../components/sessaoFuncionarios/atualizar/Atualizar";
 import Deletar from "../../components/sessaoFuncionarios/deletar/Deletar";
 
 const Funcionarios = () => {
+   
    const { params } = useParams();
 
    return (
