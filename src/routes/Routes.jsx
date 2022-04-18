@@ -3,16 +3,18 @@ import { Routes, Route } from 'react-router'
 import Funcionarios from '../pages/funcionarios/Funcionarios'
 import Cardapio from '../pages/cardapio/Cardapio'
 import Fornecedores from '../pages/fornecedores/Fornecedores'
-import Home from '../pages/homeAdm/HomeAdm'
+import HomeAdm from '../pages/homeAdm/HomeAdm'
+import HomeCliente from '../pages/homeCliente/HomeCliente'
 
 const RoutesApp = () => {
   return (
     <Routes>
-       <Route path="/" element={<Home/>}/>
-       <Route path="/adm/funcionarios" element={<Funcionarios/>}/>
-       <Route path="/adm/funcionarios/:params" element={<Funcionarios/>}/>
-       <Route path="/adm/cardapio" element={<Cardapio/>}/>
-       <Route path="/adm/fornecedores" element={<Fornecedores/>}/>
+       <Route path="/" element={<HomeCliente/>}/>
+       <Route path="/adm" element={<HomeAdm/>}/>
+       <Route path="/funcionarios" element={<Funcionarios/>}/>
+       <Route path="/funcionarios/:params" element={<Funcionarios/>}/>
+       <Route path="/cardapio-adm" element={<Cardapio/>}/>
+       <Route path="/fornecedores" element={<Fornecedores/>}/>
     </Routes>
   )
 }
