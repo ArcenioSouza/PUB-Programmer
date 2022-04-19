@@ -3,7 +3,7 @@ import imgFundo from "../../assets/img/FundoApp.png";
 
 const Container = styled.main`
    width: 100%;
-   height: 88.2%;
+   height: 80%;
    display: flex;
    justify-content: center;
    align-items: flex-start;
