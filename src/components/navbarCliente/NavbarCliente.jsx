@@ -20,9 +20,9 @@ const NavbarCliente = () => {
          <nav>
             <ul>
                <NavLink to="/">Home</NavLink>
-               <NavLink to="/adm/cardapio">Sobre</NavLink>
-               <NavLink to="/adm/fornecedores">Colaboradores</NavLink>
-               <NavLink to="/adm/fornecedores">Cardápio</NavLink>
+               <NavLink to="/sobre">Sobre</NavLink>
+               <NavLink to="/colaboradores">Colaboradores</NavLink>
+               <NavLink to="/cardapio">Cardápio</NavLink>
             </ul>
          </nav>
          <NavLink to="/adm"><Button id="buttonNavbar" text="Entrar" /></NavLink>
