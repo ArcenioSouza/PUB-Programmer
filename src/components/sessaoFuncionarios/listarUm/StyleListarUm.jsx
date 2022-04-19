@@ -1,6 +1,5 @@
 import styled from "styled-components";
 
-
 export const Container = styled.div`
    width: 90%;
    height: 90%;
@@ -13,20 +12,20 @@ export const Container = styled.div`
       justify-content: center;
       align-items: center;
 
-      label{
+      label {
          margin-bottom: 30px;
          font-size: 1.5rem;
          font-weight: bold;
       }
 
-      div{
+      div {
          width: 100%;
          display: flex;
          justify-content: center;
          align-items: center;
       }
 
-      input{
+      input {
          width: 60%;
          margin-right: 5%;
          font-size: 1.3rem;
@@ -34,18 +33,17 @@ export const Container = styled.div`
          border-radius: 5px;
       }
 
-      button:hover{
+      button:hover {
          cursor: pointer;
       }
 
-      button:active{
+      button:active {
          background-color: var(--rosa);
       }
-
    }
 
-   .informacoesDoFuncionario{
-      ul{
+   .informacoesDoFuncionario {
+      ul {
          width: 90%;
          list-style: none;
          display: flex;
@@ -56,7 +54,63 @@ export const Container = styled.div`
       }
    }
 
+   @media (max-width: 800px) {
+      width: 95%;
+      height: 95%;
+
+      form {
+         width: 100%;
+         height: 50%;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+
+         label {
+            margin-bottom: 20px;
+            font-size: 1.2rem;
+            font-weight: bold;
+         }
+
+         div {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+         }
+
+         input {
+            width: 100%;
+            margin-right: 0;
+            margin-bottom: 10px;
+            font-size: 1rem;
+            padding: 5px;
+            border-radius: 5px;
+         }
+
+         button:hover {
+            cursor: pointer;
+         }
+
+         button:active {
+            background-color: var(--rosa);
+         }
+      }
+
+      .informacoesDoFuncionario {
+         ul {
+            width: 100%;
+            padding: 0;
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            font-size: 1.2rem;
+         }
+      }
+   }
 `;
 
 export default Container;
-

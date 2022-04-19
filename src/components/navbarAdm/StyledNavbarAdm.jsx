@@ -15,6 +15,11 @@ const Container = styled.header`
       margin-left: 5%;
    }
 
+   svg:hover{
+      cursor: pointer;
+      color: var(--rosa);
+   }
+
    #buttonNavbar {
       margin-right: 5%;
    }
