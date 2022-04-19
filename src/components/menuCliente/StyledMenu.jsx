@@ -9,6 +9,7 @@ const Container = styled.menu`
    background-color: black;
    padding: 10px;
    margin: 0;
+   z-index: 99;
 
    ul{
       height: 90%;
