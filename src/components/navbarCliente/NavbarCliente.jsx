@@ -1,11 +1,11 @@
 import React, { useState } from "react";
-import Container from "./StyledNavbarAdm";
+import Container from "./StyledNavbarCliente";
 import { NavLink } from "react-router-dom";
 import { GiHamburgerMenu } from "react-icons/gi";
 import Button from "../button/Button";
-import Menu from "../menu/Menu";
+import Menu from "../menuCliente/Menu";
 
-const NavbarAdm = () => {
+const NavbarCliente = () => {
    const [ativaMenu, setAtivaMenu] = useState(false);
 
    return (
@@ -19,16 +19,17 @@ const NavbarAdm = () => {
          <img src={require("../../assets/img/Logotipo-dark.png")} alt="" />
          <nav>
             <ul>
-               <NavLink to="/adm/funcionarios">Funcionários</NavLink>
-               <NavLink to="/adm/cardapio-adm">Cardápio</NavLink>
-               <NavLink to="/adm/fornecedores">Fornecedores</NavLink>
+               <NavLink to="/">Home</NavLink>
+               <NavLink to="/sobre">Sobre</NavLink>
+               <NavLink to="/colaboradores">Colaboradores</NavLink>
+               <NavLink to="/cardapio">Cardápio</NavLink>
             </ul>
          </nav>
-         <NavLink to="/"><Button id="buttonNavbar" text="Sair" /></NavLink>
+         <NavLink to="/adm"><Button id="buttonNavbar" text="Entrar" /></NavLink>
          
          {ativaMenu ? <Menu /> : null}
       </Container>
    );
 };
 
-export default NavbarAdm;
+export default NavbarCliente;
