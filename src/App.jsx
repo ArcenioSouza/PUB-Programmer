@@ -1,10 +1,11 @@
 import { BrowserRouter } from "react-router-dom";
 import NavbarAdm from "./components/navbarAdm/NavbarAdm";
 import Footer from "./components/footerAdm/Footer";
-import RoutesApp from "./routes/Routes";
 import { Routes, Route } from "react-router";
 import NavbarCliente from "./components/navbarCliente/NavbarCliente";
 import FooterCliente from "./components/footerCliente/Footer";
+import RoutesCliente from "./routes/RoutesCliente";
+import RoutesAdm from "./routes/RoutesAdm";
 
 function App() {
    return (
@@ -15,7 +16,7 @@ function App() {
                element={
                   <>
                      <NavbarCliente />
-                     <RoutesApp />
+                     <RoutesCliente />
                      <FooterCliente />
                   </>
                }
@@ -25,7 +26,7 @@ function App() {
                element={
                   <>
                      <NavbarAdm />
-                     <RoutesApp />
+                     <RoutesAdm />
                      <Footer />
                   </>
                }
