@@ -20,7 +20,7 @@ const NavbarAdm = () => {
          <nav>
             <ul>
                <NavLink to="/adm/funcionarios">Funcionários</NavLink>
-               <NavLink to="/adm/cardapio-adm">Cardápio</NavLink>
+               <NavLink to="/adm/cardapio">Cardápio</NavLink>
                <NavLink to="/adm/fornecedores">Fornecedores</NavLink>
             </ul>
          </nav>
