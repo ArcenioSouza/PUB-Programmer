@@ -1,9 +1,16 @@
-import React from 'react'
+import React from "react";
+import { NavLink } from "react-router-dom";
 
 const Cardapio = () => {
-  return (
-    <div>Cardapio</div>
-  )
-}
+   return (
+      <div>
+         <h1>Escolha seu cardapio</h1>
 
-export default Cardapio
+         <NavLink to={"/adm/cardapio/comidas"}>
+            <button>Comidas</button>
+         </NavLink>
+      </div>
+   );
+};
+
+export default Cardapio;
