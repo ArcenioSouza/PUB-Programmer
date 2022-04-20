@@ -13,6 +13,7 @@ const RoutesAdm = () => {
        <Route path="/funcionarios/:params" element={<Funcionarios/>}/>
        <Route path="/cardapio-adm" element={<Cardapio/>}/>
        <Route path="/fornecedores" element={<Fornecedores/>}/>
+       <Route path="/fornecedores/:params" element={<Fornecedores/>}/>
     </Routes>
   )
 }
