@@ -17,24 +17,16 @@ const Comidas = () => {
          <div className="containerInformacoes">
             <div className="grupoDeBotoes">
                <NavLink to={`/adm/cardapio/comidas/listar-todos`}>
-                  <Button id="listar-todos" text="Listar todos"/>
+                  <Button id="listar-todos" text="Listar todos" />
                </NavLink>
                <NavLink to={`/adm/cardapio/comidas/listar-um`}>
-                  <Button
-                     id="listar-um"
-                     text="Listar um"
-                  
-                  />
+                  <Button id="listar-um" text="Listar um" />
                </NavLink>
                <NavLink to={`/adm/cardapio/comidas/salvar`}>
                   <Button id="salvar" text="Salvar" />
                </NavLink>
                <NavLink to={`/adm/cardapio/comidas/atualizar`}>
-                  <Button
-                     id="atualizar"
-                     text="Atualizar"
-                  
-                  />
+                  <Button id="atualizar" text="Atualizar" />
                </NavLink>
                <NavLink to={`/adm/cardapio/comidas/deletar`}>
                   <Button id="deletar" text="Deletar" />
