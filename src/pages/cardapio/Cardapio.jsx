@@ -9,6 +9,9 @@ const Cardapio = () => {
          <NavLink to={"/adm/cardapio/comidas"}>
             <button>Comidas</button>
          </NavLink>
+         <NavLink to={"/adm/cardapio/bebidas"}>
+            <button>Bebidas</button>
+         </NavLink>
       </div>
    );
 };

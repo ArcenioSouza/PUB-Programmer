@@ -5,6 +5,7 @@ import Cardapio from "../pages/cardapio/Cardapio";
 import Comidas from "../pages/cardapio/comidas/Comidas";
 import Fornecedores from "../pages/fornecedores/Fornecedores";
 import HomeAdm from "../pages/homeAdm/HomeAdm";
+import Bebidas from "../pages/cardapio/bebidas/Bebidas";
 
 const RoutesAdm = () => {
    return (
@@ -15,6 +16,8 @@ const RoutesAdm = () => {
          <Route path="/cardapio" element={<Cardapio />} />
          <Route path="/cardapio/comidas" element={<Comidas />} />
          <Route path="/cardapio/comidas/:params" element={<Comidas />} />
+         <Route path="/cardapio/bebidas" element={<Bebidas />} />
+         <Route path="/cardapio/bebidas/:params" element={<Bebidas />} />
          <Route path="/fornecedores" element={<Fornecedores />} />
          <Route path="/fornecedores/:params" element={<Fornecedores />} />
       </Routes>
