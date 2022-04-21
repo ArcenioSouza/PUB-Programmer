@@ -2,7 +2,7 @@ import React from "react";
 import { Routes, Route } from "react-router";
 import Funcionarios from "../pages/funcionarios/Funcionarios";
 import Cardapio from "../pages/cardapio/Cardapio";
-import Comidas from "../pages/cardapio/comidas/Comidas";
+import Comidas from "../pages/cardapio/Comidas/Comidas";
 import Fornecedores from "../pages/fornecedores/Fornecedores";
 import HomeAdm from "../pages/homeAdm/HomeAdm";
 import Bebidas from "../pages/cardapio/bebidas/Bebidas";
