@@ -34,17 +34,16 @@ export const Container = styled.form`
 
    .inputsCnpjTelefone {
       display: flex;
-      width: 100%;
+      width: 50%;
 
       .containerCnpj {
-         width: 46%;
-         margin-right: 2%;
-         margin-top: 3%
+         width: 100%;
+         margin-left: 30%
 
       }
 
       .containerTelefone{
-         width: 46%;
+         width: 100%;
          margin-left: 2%;
       }
    }
