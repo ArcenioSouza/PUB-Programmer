@@ -14,7 +14,8 @@ const Container = styled.main`
 
    h1 {
       width: 100%;
-      height: 100px;
+      height: 70px;
+      font-size: 1.8rem;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -26,7 +27,7 @@ const Container = styled.main`
       display: flex;
       align-items: center;
       width: 90%;
-      height: 550px;
+      height: 500px;
       background-color: var(--pretobg);
       border-radius: 10px;
       border: 2px solid var(--roxo);
@@ -59,7 +60,7 @@ const Container = styled.main`
    .informacoesDaApi {
       box-sizing: border-box;
       width: 65%;
-      height: 80%;
+      height: 90%;
       background-color: var(--brancobg);
       border-radius: 20px;
       padding: 2%;
@@ -72,6 +73,40 @@ const Container = styled.main`
       p {
          font-size: 1.3rem;
          text-align: center;
+      }
+   }
+   @media (max-width: 800px) {
+      overflow-y: scroll;
+      padding: 5px;
+      .grupoDeBotoes {
+         width: 98%;
+         margin: 2px;
+         flex-direction: row;
+         flex-wrap: wrap;
+         button {
+            width: 90px;
+            font-size: 0.8rem;
+            margin: 5px;
+         }
+      }
+      h1 {
+         height: 60px;
+         font-size: 1.5rem;
+      }
+      .containerInformacoes {
+         flex-direction: column;
+         height: auto;
+         padding: 10px;
+      }
+      .informacoesDaApi {
+         width: 95%;
+         height: 420px;
+         padding: 1%;
+      }
+   }
+   @media(max-width: 500px){
+      h1{
+         font-size: 1rem;
       }
    }
 `;

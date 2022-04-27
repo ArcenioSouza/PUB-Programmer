@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 export const Container = styled.form`
    width: 90%;
-   height: 95%;
+   height: 70%;
    display: flex;
    flex-direction: column;
    justify-content: center;
@@ -22,7 +22,7 @@ export const Container = styled.form`
       label{
          font-size: 1.1rem;
          font-weight: bold;
-         margin: 2px 0 2px 0;
+         margin: 2px 0 2px 0px;
       }
 
       input{
@@ -31,14 +31,13 @@ export const Container = styled.form`
          margin-bottom: 5px;
          border-radius: 5px;
       }
-
-      select{
-         font-size: 1.1rem;
-         padding: 5px;
-         margin-bottom: 5px;
-         border-radius: 5px;
-      }
    }
+
+   .inputsCnpjTelefone {
+      display: flex;
+      flex-direction: column;
+      width: 20%;
+}
 
    button:hover{
       cursor: pointer;
