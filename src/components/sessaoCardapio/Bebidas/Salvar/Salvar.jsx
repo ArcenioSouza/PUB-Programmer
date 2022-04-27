@@ -27,6 +27,8 @@ const Salvar = () => {
         <input type="text" {...register("description")} />
         <label htmlFor="price">Preço: </label>
         <input type="text" {...register("price")} />
+        <label htmlFor="storage">Estoque: </label>
+        <input type="text" {...register("price")} />
       </div>
       <Button text="Salvar" onClick={handleSubmit(onSubmit)} />
       <ToastContainer position="top-right" autoClose={3000} />

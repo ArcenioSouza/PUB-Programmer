@@ -35,6 +35,8 @@ export const Container = styled.form`
   .inputsPreco {
     display: flex;
     width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
 
     select {
       width: 100%;

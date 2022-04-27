@@ -27,10 +27,14 @@ const Atualizar = () => {
         <input type="text" {...register("title")} />
         <label htmlFor="job">Descrição: </label>
         <input type="text" {...register("description")} />
-        <div className="inputsPreco">
+        <div className="inputs">
           <div className="containerPreco">
             <label htmlFor="wage">Preço: </label>
             <input type="number" {...register("price")} />
+          </div>
+          <div className="containerPreco">
+            <label htmlFor="wage">Estoque: </label>
+            <input type="number" {...register("storage")} />
           </div>
         </div>
       </div>
