@@ -24,19 +24,19 @@ const Salvar = () => {
       <Container>
          <h3>Digite as informações do fornecedores que deseja salvar</h3>
          <div className="inputs">
-         <label htmlFor="name">Nome: </label>
+         <label htmlFor="name">Nome:</label>
             <input type="text" {...register("name")} />
             <div className="inputsCnpjTelefone">
                <div className="containerCnpj">
-                  <label htmlFor="cnpj">Cnpj: </label>
+                  <label htmlFor="cnpj">Cnpj:</label>
                   <input type="text" {...register("cnpj")} />
                </div>
                <div className="containerTelefone">
-                  <label htmlFor="number">Telefone: </label>
+                  <label htmlFor="number">Telefone:</label>
                   <input type="number" {...register("number")} />
                </div>
             </div>
-            <label htmlFor="email">E-mail: </label>
+            <label htmlFor="email">E-mail:</label>
             <input type="text" {...register("email")} />
          </div>
          <Button text="Salvar" onClick={handleSubmit(onSubmit)} />
