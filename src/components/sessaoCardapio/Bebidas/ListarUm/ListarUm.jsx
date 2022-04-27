@@ -59,6 +59,9 @@ const ListarUm = () => {
             <li>
               <b>Preço:</b> {formataReais(informacoesBebida.price)}
             </li>
+            <li>
+              <b>Estoque:</b> {formataReais(informacoesBebida.storage)}
+            </li>
           </ul>
         )}
       </div>

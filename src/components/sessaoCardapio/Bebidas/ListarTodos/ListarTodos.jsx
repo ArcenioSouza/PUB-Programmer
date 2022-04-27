@@ -43,6 +43,9 @@ const ListarTodos = () => {
               <li>
                 <b>Preço:</b> {item.price}
               </li>
+              <li>
+                <b>Estoque:</b> {item.storage}
+              </li>
               <li>-------------------------------------</li>
             </ul>
           );
