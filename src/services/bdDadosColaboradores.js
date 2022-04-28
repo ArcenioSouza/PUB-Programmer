@@ -20,34 +20,34 @@ const funcionarios = [
    {
       id: "3",
       nome: "Gicelle Sena",
-      idade: "",
-      cargo: "",
-      nascimento: "",
-      anoAdmissao: "",
-      hobbie: ""
+      idade: "22 anos",
+      cargo: "Desenvolvedora FullStack",
+      nascimento: "Nascida em Pernambuco",
+      anoAdmissao: "Colaboradora desde 2022",
+      hobbie: "Seu hobbie é sair com os amigos, tocar violão, assistir filme com meu irmão."
    },
    {
       id: "4",
       nome: "Matheus Camba",
-      idade: "25",
+      idade: "25 anos",
       cargo: "Desenvolvedor FullStack",
       nascimento: "Nascido no Rio de Janeiro",
       anoAdmissao: "Colaborador desde 2022",
-      hobbie: "Sair com os amigos, tocar violão e curtir uma praia."
+      hobbie: "Seu hobbie é sair com os amigos, tocar violão e curtir uma praia."
    },
    {
       id: "5",
       nome: "Milena Souza",
-      idade: "",
-      cargo: "",
-      nascimento: "",
-      anoAdmissao: "",
-      hobbie: ""
+      idade: "22 anos",
+      cargo: "Desenvolvedora FullStack",
+      nascimento: "Nascida no Rio de Janeiro",
+      anoAdmissao: "Colaborador desde 2022",
+      hobbie: "Seu hobbie é assistir desfile de carnaval, ir a praia e ir pro samba"
    },
    {
       id: "6",
-      nome: "Emmie Petit",
-      idade: "31",
+      nome: "Soraya Cardoso",
+      idade: "31 anos",
       cargo: "Gerente",
       nascimento: "Nascida em São Paulo",
       anoAdmissao: "Colaboradora desde 2019",
@@ -55,8 +55,8 @@ const funcionarios = [
    },
    {
       id: "7",
-      nome: "Katie Bailey",
-      idade: "57",
+      nome: "Fernanda Batista",
+      idade: "57 anos",
       cargo: "Cozinheira",
       nascimento: "Nascida em São Paulo",
       anoAdmissao: "Colaboradora desde 2015",
@@ -64,8 +64,8 @@ const funcionarios = [
    },
    {
       id: "8",
-      nome: "Elliot Jones",
-      idade: "42",
+      nome: "Renato Pereira",
+      idade: "42 anos",
       cargo: "Barman",
       nascimento: "Nascido em Salvador, Bahia",
       anoAdmissao: "Colaborador desde 2018",
@@ -73,8 +73,8 @@ const funcionarios = [
    },
    {
       id: "9",
-      nome: "Howard Elliot",
-      idade: "37",
+      nome: "Marcos Antônio",
+      idade: "37 anos",
       cargo: "Copeiro",
       nascimento: "Nascido em Curitiba, Paraná",
       anoAdmissao: "Colaborador desde 2018",
@@ -82,8 +82,8 @@ const funcionarios = [
    },
    {
       id: "10",
-      nome: "Magnus Larsen",
-      idade: "25",
+      nome: "José Sampaio",
+      idade: "25 anos",
       cargo: "Auxiliar de Cozinha",
       nascimento: "Nascido no Acre",
       anoAdmissao: "Colaborador desde 2020",
