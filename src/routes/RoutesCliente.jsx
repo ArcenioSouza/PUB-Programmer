@@ -12,6 +12,7 @@ const RoutesCliente = () => {
       <Route path="/" element={<HomeCliente />} />
       <Route path="/sobre" element={<Sobre />} />
       <Route path="/colaboradores" element={<Colaboradores />} />
+      <Route path="/colaboradores/:id" element={<Colaboradores />} />
       <Route path="/cardapio" element={<CardapioClientes />} />
       <Route path="/login" element={<Login />} />
     </Routes>
