@@ -63,6 +63,8 @@ const Colaboradores = () => {
                               <p>{funcionario.hobbie}</p>
                            </div>
                         );
+                     } else{
+                        return(<></>)
                      }
                   })
                )}
