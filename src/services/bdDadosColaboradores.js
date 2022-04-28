@@ -24,7 +24,7 @@ const funcionarios = [
       cargo: "Desenvolvedora FullStack",
       nascimento: "Nascida em Pernambuco",
       anoAdmissao: "Colaboradora desde 2022",
-      hobbie: "Seu hobbie é sair com os amigos, tocar violão, assistir filme com meu irmão."
+      hobbie: "Seu hobbie é sair com os amigos, tocar violão e assistir filme com meu irmão."
    },
    {
       id: "4",
@@ -41,8 +41,8 @@ const funcionarios = [
       idade: "22 anos",
       cargo: "Desenvolvedora FullStack",
       nascimento: "Nascida no Rio de Janeiro",
-      anoAdmissao: "Colaborador desde 2022",
-      hobbie: "Seu hobbie é assistir desfile de carnaval, ir a praia e ir pro samba"
+      anoAdmissao: "Colaboradora desde 2022",
+      hobbie: "Seu hobbie é assistir desfile de carnaval, ir a praia e ir para samba"
    },
    {
       id: "6",
