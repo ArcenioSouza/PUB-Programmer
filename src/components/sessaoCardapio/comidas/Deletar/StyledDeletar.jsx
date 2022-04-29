@@ -44,7 +44,7 @@ export const Container = styled.div`
 
    }
 
-   .informacoesDoFuncionario{
+   .informacoesDComida{
       ul{
          width: 90%;
          list-style: none;
