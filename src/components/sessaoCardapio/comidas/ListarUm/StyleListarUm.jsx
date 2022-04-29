@@ -42,8 +42,9 @@ export const Container = styled.div`
       }
    }
 
-   .informacoesDoFuncionario {
-      ul {
+
+   .informacoesDComida{
+      ul{
          width: 90%;
          list-style: none;
          display: flex;

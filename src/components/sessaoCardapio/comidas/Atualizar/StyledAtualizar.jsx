@@ -32,7 +32,7 @@ export const Container = styled.form`
       }
    }
 
-   .inputsCargoSalario {
+   .inputsDescricao {
       display: flex;
       width: 100%;
 
@@ -44,9 +44,8 @@ export const Container = styled.form`
          border-radius: 5px;
       }
 
-      .containerPreco {
-         width: 46%;
-         margin-left: 2%;
+      .containerDescricao{
+         width: 40%;
       }
    }
 `;
