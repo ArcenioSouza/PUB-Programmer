@@ -14,6 +14,8 @@ const RoutesCliente = () => {
       <Route path="/colaboradores" element={<Colaboradores />} />
       <Route path="/colaboradores/:id" element={<Colaboradores />} />
       <Route path="/cardapio" element={<CardapioClientes />} />
+      <Route path="/cardapio/:opcao" element={<CardapioClientes />} />
+      <Route path="/cardapio/:opcao" element={<CardapioClientes />} />
       <Route path="/login" element={<Login />} />
     </Routes>
   );
