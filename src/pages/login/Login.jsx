@@ -36,6 +36,7 @@ const Login = () => {
         <InputContainer>
           <Input
             type="text"
+            id="input"
             placeholder="Email"
             value={email}
             onChange={(e) => {
@@ -44,6 +45,7 @@ const Login = () => {
           />
           <Input
             type="password"
+            id="input"
             placeholder="Senha"
             value={password}
             onChange={(e) => {
@@ -51,6 +53,7 @@ const Login = () => {
             }}
           />
         </InputContainer>
+
         <Button
           id="buttonLogin"
           text="Iniciar Sessão"
