@@ -66,12 +66,6 @@ export const InputContainer = styled.div`
   width: 100%;
   position: absolute;
   top: 200px;
-
-  @media screen and (max-width: 700px) {
-    #input {
-      margin-bottom: 10px;
-    }
-  }
 `;
 
 export const ContainerButton = styled.div`
