@@ -44,7 +44,7 @@ const ListarUm = () => {
                <Button text="Buscar" onClick={buscarComida} />
             </div>
          </form>
-         <div className="informacoesDaComida">
+         <div className="informacoesDComida">
             {informacoesComida.length === 0 ? (
                <p>Digite o id de uma comida e clique em buscar</p>
             ) : (
