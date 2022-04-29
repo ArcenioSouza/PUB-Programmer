@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 
-
 import api from "../../../../services/api";
 import Container from "./StyledListarTodos.jsx";
 import { toast, ToastContainer } from "react-toastify";
@@ -30,8 +29,6 @@ const ListarTodos = () => {
             <p>Aguarde um momento</p>
          ) : (
             list.map((item, index) => {
-               
-              
                return (
                   <ul key={index}>
                      <li>

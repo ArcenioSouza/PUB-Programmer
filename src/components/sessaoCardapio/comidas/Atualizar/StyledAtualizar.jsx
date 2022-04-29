@@ -36,20 +36,16 @@ export const Container = styled.form`
       display: flex;
       width: 100%;
 
-      
-
-         select {
-            width: 100%;
-            font-size: 1.1rem;
-            padding: 5px;
-            margin-bottom: 5px;
-            border-radius: 5px;
-         }
+      select {
+         width: 100%;
+         font-size: 1.1rem;
+         padding: 5px;
+         margin-bottom: 5px;
+         border-radius: 5px;
       }
 
       .containerDescricao{
          width: 40%;
-      
       }
    }
 `;

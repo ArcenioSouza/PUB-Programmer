@@ -1,6 +1,5 @@
 import styled from "styled-components";
 
-
 export const Container = styled.form`
    width: 90%;
    height: 95%;
@@ -9,30 +8,30 @@ export const Container = styled.form`
    justify-content: center;
    align-items: center;
 
-   h3{
+   h3 {
       margin-top: 0;
       text-align: center;
    }
 
-   .inputs{
+   .inputs {
       display: flex;
       flex-direction: column;
       width: 100%;
-      
-      label{
+
+      label {
          font-size: 1.1rem;
          font-weight: bold;
          margin: 2px 0 2px 0;
       }
 
-      input{
+      input {
          font-size: 1.1rem;
          padding: 5px;
          margin-bottom: 5px;
          border-radius: 5px;
       }
 
-      select{
+      select {
          font-size: 1.1rem;
          padding: 5px;
          margin-bottom: 5px;
@@ -40,11 +39,11 @@ export const Container = styled.form`
       }
    }
 
-   button:hover{
+   button:hover {
       cursor: pointer;
    }
 
-   button:active{
+   button:active {
       background-color: var(--rosa);
    }
 `;

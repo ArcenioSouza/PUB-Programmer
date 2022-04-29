@@ -10,15 +10,11 @@ const Atualizar = () => {
    const { register, handleSubmit } = useForm();
 
    const onSubmit = (data) => {
-      toast.promise(
-         api.put(`/foods/${data.id}`, data),
-         {
-            pending: "Enviando informações da comida",
-            error: "Erro ao atualizar os dados",
-            success: "Dados atualizados com sucesso",
-         }
-        )    
-      
+      toast.promise(api.put(`/foods/${data.id}`, data), {
+         pending: "Enviando informações da comida",
+         error: "Erro ao atualizar os dados",
+         success: "Dados atualizados com sucesso",
+      });
    };
 
    return (
@@ -39,13 +35,11 @@ const Atualizar = () => {
                   <input type="number" {...register("price")} />
                </div>
             </div>
-            
          </div>
          <Button text="Atualizar" onClick={handleSubmit(onSubmit)} />
-         <ToastContainer position="top-right" autoClose={3000}/>
+         <ToastContainer position="top-right" autoClose={3000} />
       </Container>
    );
 };
 
 export default Atualizar;
-

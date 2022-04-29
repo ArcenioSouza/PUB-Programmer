@@ -1,6 +1,5 @@
 import styled from "styled-components";
 
-
 export const Container = styled.div`
    width: 90%;
    height: 90%;
@@ -13,20 +12,20 @@ export const Container = styled.div`
       justify-content: center;
       align-items: center;
 
-      label{
+      label {
          margin-bottom: 30px;
          font-size: 1.5rem;
          font-weight: bold;
       }
 
-      div{
+      div {
          width: 100%;
          display: flex;
          justify-content: center;
          align-items: center;
       }
 
-      input{
+      input {
          width: 60%;
          margin-right: 5%;
          font-size: 1.3rem;
@@ -34,15 +33,15 @@ export const Container = styled.div`
          border-radius: 5px;
       }
 
-      button:hover{
+      button:hover {
          cursor: pointer;
       }
 
-      button:active{
+      button:active {
          background-color: var(--rosa);
       }
-
    }
+
 
    .informacoesDComida{
       ul{
@@ -55,8 +54,6 @@ export const Container = styled.div`
          font-size: 1.3rem;
       }
    }
-
 `;
 
 export default Container;
-

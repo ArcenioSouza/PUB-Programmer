@@ -7,32 +7,26 @@ import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 const Deletar = () => {
-   const {register, handleSubmit} = useForm();
+   const { register, handleSubmit } = useForm();
 
-   const onSubmit = (data) => {      
-      toast.promise(
-         api.delete(`/foods/${data.id}`),
-         {
-            pending: "Apagando informações da comida",
-            error: "Erro ao apagar os dados",
-            success: "Dados apagados com sucesso",
-         }
-        )    
-   }
+   const onSubmit = (data) => {
+      toast.promise(api.delete(`/foods/${data.id}`), {
+         pending: "Apagando informações da comida",
+         error: "Erro ao apagar os dados",
+         success: "Dados apagados com sucesso",
+      });
+   };
 
    return (
       <Container>
          <form>
             <label htmlFor="id">Digite o id da comida </label>
             <div>
-               <input
-                  type="text"
-                  {...register("id")}                
-               />
-               <Button text="Deletar" onClick={handleSubmit(onSubmit)}/>
+               <input type="text" {...register("id")} />
+               <Button text="Deletar" onClick={handleSubmit(onSubmit)} />
             </div>
          </form>
-         <ToastContainer position="top-right" autoClose={3000}/>
+         <ToastContainer position="top-right" autoClose={3000} />
       </Container>
    );
 };

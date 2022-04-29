@@ -1,8 +1,5 @@
 import React, { useState } from "react";
-import {
-  
-  formataReais,
-} from "../../../../services/formatacaoDeDados.js";
+import { formataReais } from "../../../../services/formatacaoDeDados.js";
 import api from "../../../../services/api";
 import Button from "../../../button/Button";
 import Container from "./StyleListarUm.jsx";
@@ -61,7 +58,6 @@ const ListarUm = () => {
                   <li>
                      <b>Preço:</b> {formataReais(informacoesComida.price)}
                   </li>
-                  
                </ul>
             )}
          </div>

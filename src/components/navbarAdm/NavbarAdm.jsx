@@ -10,7 +10,12 @@ const NavbarAdm = () => {
 
    return (
       <Container>
-         <GiHamburgerMenu onClick={() => setAtivaMenu(!ativaMenu)}/>
+         <GiHamburgerMenu onClick={() => {
+            setAtivaMenu(!ativaMenu)
+            setTimeout(() => {
+               setAtivaMenu(false)
+            },3000)
+         }}/>
          <img src={require("../../assets/img/Logotipo-dark.png")} alt="" />
          <nav>
             <ul>
@@ -19,7 +24,8 @@ const NavbarAdm = () => {
                <NavLink to="/adm/fornecedores">Fornecedores</NavLink>
             </ul>
          </nav>
-         <Button id="buttonNavbar" text="Sair" />
+         <NavLink to="/"><Button id="buttonNavbar" text="Sair" /></NavLink>
+         
          {ativaMenu ? <Menu /> : null}
       </Container>
    );

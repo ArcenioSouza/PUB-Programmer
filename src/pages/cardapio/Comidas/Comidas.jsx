@@ -11,37 +11,25 @@ import Deletar from "../../../components/sessaoCardapio/comidas/Deletar/Deletar"
 const Comidas = () => {
    const { params } = useParams();
 
-   function handleOnClick(event) {
-      
-   }
-
    return (
       <Container>
          <h1>Sessão Comidas</h1>
          <div className="containerInformacoes">
             <div className="grupoDeBotoes">
                <NavLink to={`/adm/cardapio/comidas/listar-todos`}>
-                  <Button id="listar-todos" text="Listar todos" onClick={handleOnClick}/>
+                  <Button id="listar-todos" text="Listar todos" />
                </NavLink>
                <NavLink to={`/adm/cardapio/comidas/listar-um`}>
-                  <Button
-                     id="listar-um"
-                     text="Listar um"
-                     onClick={handleOnClick}
-                  />
+                  <Button id="listar-um" text="Listar um" />
                </NavLink>
                <NavLink to={`/adm/cardapio/comidas/salvar`}>
-                  <Button id="salvar" text="Salvar" onClick={handleOnClick} />
+                  <Button id="salvar" text="Salvar" />
                </NavLink>
                <NavLink to={`/adm/cardapio/comidas/atualizar`}>
-                  <Button
-                     id="atualizar"
-                     text="Atualizar"
-                     onClick={handleOnClick}
-                  />
+                  <Button id="atualizar" text="Atualizar" />
                </NavLink>
                <NavLink to={`/adm/cardapio/comidas/deletar`}>
-                  <Button id="deletar" text="Deletar" onClick={handleOnClick} />
+                  <Button id="deletar" text="Deletar" />
                </NavLink>
             </div>
             <div className="informacoesDaApi">
