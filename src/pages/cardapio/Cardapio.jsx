@@ -5,6 +5,7 @@ import {
   ContainerButton,
   ContainerTitulo,
   ContainerImage,
+  CentralContainer,
 } from "./StyledCardapio";
 import Button from "../../components/button/Button";
 import Porcoes from "../../assets/img/Porcoes.png";
@@ -15,17 +16,19 @@ const Cardapio = () => {
       <ContainerTitulo>
         <h1>Escolha seu cardápio:</h1>
       </ContainerTitulo>
-      <ContainerButton>
-        <NavLink to={"/adm/cardapio/comidas"}>
-          <Button text="Comidas" id="btn" />{" "}
-        </NavLink>{" "}
-        <NavLink to={"/adm/cardapio/bebidas"}>
-          <Button text="Bebidas" id="btn" />{" "}
-        </NavLink>
-      </ContainerButton>
-      <ContainerImage>
-        <img src={Porcoes} alt="" />
-      </ContainerImage>
+      <CentralContainer id="box">
+        <ContainerButton>
+          <NavLink to={"/adm/cardapio/comidas"}>
+            <Button text="Comidas" id="btn" />{" "}
+          </NavLink>{" "}
+          <NavLink to={"/adm/cardapio/bebidas"}>
+            <Button text="Bebidas" id="btn" />{" "}
+          </NavLink>
+        </ContainerButton>
+        <ContainerImage>
+          <img src={Porcoes} alt="" />
+        </ContainerImage>
+      </CentralContainer>
     </Container>
   );
 };
