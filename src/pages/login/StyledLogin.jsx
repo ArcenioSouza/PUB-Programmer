@@ -22,15 +22,26 @@ export const LoginContainer = styled.div`
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
   backdrop-filter: blur(8.5px);
 
+  button:hover {
+    background-color: var(--rosa);
+    cursor: pointer;
+  }
+
   #buttonLogin {
     position: absolute;
     top: 60%;
     left: 35%;
   }
 
-  button:hover {
-    background-color: var(--rosa);
-    cursor: pointer;
+  @media screen and (max-width: 700px) {
+    width: 318px;
+    height: 514px;
+
+    #buttonLogin {
+      position: absolute;
+      top: 70%;
+      left: 90px;
+    }
   }
 `;
 
@@ -51,8 +62,19 @@ export const InputContainer = styled.div`
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  height: 20%;
+  height: 120px;
   width: 100%;
   position: absolute;
   top: 200px;
+
+  @media screen and (max-width: 700px) {
+    #input {
+      margin-bottom: 10px;
+    }
+  }
+`;
+
+export const ContainerButton = styled.div`
+  display: flex;
+  justify-content: center;
 `;
