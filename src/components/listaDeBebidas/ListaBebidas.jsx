@@ -54,7 +54,6 @@ const ListaBebidas = () => {
                   <h2>
                      <b>Mojito</b>
                   </h2>
-                  <br />
                   <p>Por apenas</p>
                   <h2>R$8,00</h2>
                </div>
@@ -67,7 +66,6 @@ const ListaBebidas = () => {
                   <h2>
                      <b>Dry Martini</b>
                   </h2>
-                  <br />
                   <p>Por apenas</p>
                   <h2>R$14,00</h2>
                </div>
@@ -80,7 +78,7 @@ const ListaBebidas = () => {
                   <h2>
                      <b>Blue Lagoon</b>
                   </h2>
-                  <br />
+
                   <p>Por apenas</p>
                   <h2>R$15,00</h2>
                </div>
@@ -94,7 +92,6 @@ const ListaBebidas = () => {
                      <b>Caipirinha</b>
                   </h2>
 
-                  <br />
                   <p>Por apenas</p>
                   <h2>R$8,00</h2>
                </div>
@@ -108,7 +105,6 @@ const ListaBebidas = () => {
                      <b>Cuba Libre</b>
                   </h2>
 
-                  <br />
                   <p>Por apenas</p>
                   <h2>R$9,00</h2>
                </div>
@@ -122,7 +118,6 @@ const ListaBebidas = () => {
                      <b>Cosmopolitan</b>
                   </h2>
 
-                  <br />
                   <p>Por apenas</p>
                   <h2>R$22,00</h2>
                </div>

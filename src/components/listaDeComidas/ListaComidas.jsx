@@ -53,7 +53,7 @@ const ListaComidas = () => {
                   />
                   <h2><b>Mandioca Frita</b></h2>
                   <p>Nossas deliciosas mandiocas fritas são sequinhas, crocantes e servidas em porções generosas</p>
-                  <br />
+                 
                   <p>Por apenas</p>
                   <h2>R$12,00</h2>
                </div>
@@ -65,7 +65,7 @@ const ListaComidas = () => {
                />
                   <h2><b>Toresmo</b></h2>
                   <p>Esses toresmos são de dar água na boca, com um limão por cima então fica incrível</p>
-                  <br />
+                  
                   <p>Por apenas</p>
                   <h2>R$18,00</h2>
                </div>
@@ -78,7 +78,7 @@ const ListaComidas = () => {
                />
                   <h2><b>Pastéis</b></h2>
                   <p>Sabe aquele pastel de feira inesquecível, é dele que você vai lembrar quando provar os nossos pastéis</p>
-                  <br />
+                  
                   <p>Por apenas</p>
                   <h2>R$15,00</h2>
                </div>
@@ -91,7 +91,7 @@ const ListaComidas = () => {
                />
                   <h2><b>Bolinho de bacalhau</b></h2>
                   <p>O sabor inesquecível do bacalhau Norueguês você só encontra aqui, bolinhos feitos com o melhor bacalhau do mundo</p>
-                  <br />
+                  
                   <p>Por apenas</p>
                   <h2>R$35,00</h2>
                </div>
@@ -104,7 +104,7 @@ const ListaComidas = () => {
                />
                   <h2><b>Coxinha de frango</b></h2>
                   <p>O tradicional petisco para curtir aquela cerveja com os amigos, não tem nada melhor.</p>
-                  <br />
+                  
                   <p>Por apenas</p>
                   <h2>R$25,00</h2>
                </div>
@@ -117,7 +117,7 @@ const ListaComidas = () => {
                />
                   <h2><b>Porção de Calabresa</b></h2>
                   <p>Mais um tradicional brasileiro em nosso PUB que é sucesso, reinventamos a forma de servir com o nosso molho da casa, não tem como descrever o sabor.</p>
-                  <br />
+                  
                   <p>Por apenas</p>
                   <h2>R$15,00</h2>
                </div>
